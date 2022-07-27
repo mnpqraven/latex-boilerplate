@@ -1,0 +1,40 @@
+\documentclass[a4paper]{article}
+% lOREM IPSUM
+\usepackage{blindtext}
+% UNICODE
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese=nohyphenation]{hyphsubst}
+\usepackage[vietnamese]{babel}
+
+%--------------- Page Geometry---------------
+\usepackage{geometry}
+\geometry{a4paper, right=15mm, left=35mm, top=20mm, bottom=20mm}
+
+\begin{document}
+
+\begin{center}
+  \textbf{Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam}\\
+  \textbf{ Độc Lập - Tự Do - Hạnh Phúc }
+  {\rule[1ex]{\textwidth}{0.4pt}} \\
+  Mechanics{ \hfill
+  Volume 10, Issue 1, 2015\hskip1em
+  } \hfill
+  Mechanics
+  \par
+  \vspace{1.5cm}
+
+  \textbf{LOREM IPSUM}\bigbreak
+
+  \textbf{LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT ETIAM
+  LOBORTIS FACILISIS SEM}\bigbreak
+
+  \textbf{Author Name}
+\end{center}
+
+\blindtext
+
+\blindtext
+
+\blindtext
+
+\end{document}
